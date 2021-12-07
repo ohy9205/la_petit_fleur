@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>FunWeb</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+
+  
+  <!-- 서블릿 매핑 - 멤버 -->
+  <servlet>
+  	<servlet-name>MemberFrontController</servlet-name>
+  	<servlet-class>com.itwill.member.action.MemberFrontController</servlet-class> <!-- 파일위치 -->
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>MemberFrontController</servlet-name>
+  	<url-pattern>*.me</url-pattern> <!-- /url-pattern을 입력하면 mapping의name을 가고 name이 servlet-name을 부름-->
+ 		<!-- => 주소가 .me로만 끝나면 무조건 실행됨 -->
+  </servlet-mapping>
+  <!-- 서블릿 매핑 --> 
+
+
+
+  <!-- 서블릿 매핑 - 보드 -->
+  <servlet>
+  	<servlet-name>BoardFrontController</servlet-name>
+  	<servlet-class>com.itwill.board.action.BoardFrontController</servlet-class> <!-- 파일위치 -->
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>BoardFrontController</servlet-name>
+  	<url-pattern>*.bo</url-pattern> <!-- /url-pattern을 입력하면 mapping의name을 가고 name이 servlet-name을 부름-->
+ 		<!-- => 주소가 .bo로만 끝나면 무조건 실행됨 -->
+  </servlet-mapping>
+  <!-- 서블릿 매핑 --> 
+  
+  
+  
+  <!-- 서블릿 매핑 - 갤러리 -->
+  <servlet>
+  	<servlet-name>GalleryFrontController</servlet-name>
+  	<servlet-class>com.itwill.gallery.action.GalleryFrontController</servlet-class> <!-- 파일위치 -->
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>GalleryFrontController</servlet-name>
+  	<url-pattern>*.ga</url-pattern> <!-- /url-pattern을 입력하면 mapping의name을 가고 name이 servlet-name을 부름-->
+ 		<!-- => 주소가 .bo로만 끝나면 무조건 실행됨 -->
+  </servlet-mapping>
+  <!-- 서블릿 매핑 --> 
+
+
+</web-app>

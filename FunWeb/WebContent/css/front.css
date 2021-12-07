@@ -1,0 +1,325 @@
+@CHARSET "UTF-8";
+
+header:hover {
+	background: #fff;
+}
+
+#main_img {
+	width: 100%;
+	background : url("../images/banner.jpg") no-repeat center top;
+	background-size: cover;
+	height: 100vh;
+	background-attachment: fixed;
+	z-index: -9999;
+	min-width: 1180px;
+}
+
+#main_img img {
+	height: 100%;
+}
+.banner-inner {
+	width: 1180px;
+	height: 150px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: space-around;
+}
+.banner-brand {
+	font-size: 25px;
+	font-weight: 500;
+}
+
+.banner-title {
+	font-size: 67px;
+}
+
+.banner-text {
+	font-size: 14px;
+	font-weight: 100;
+}
+
+
+
+.brand-intro-wrap {
+	width: 800px;
+	margin: 0 auto;
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 100px 0;
+}
+
+.brand-intro {
+	display: flex;
+	flex-direction: column;
+	order: 2;
+	height: 300px;
+}
+
+.brand-img {
+	width: 480px;
+	height: 300px;
+	overflow: hidden;
+}
+
+.brand-img img {
+	display: block;
+	width: 100%;
+}
+
+.brand-intro .gal-intro {
+	padding-bottom: 15px;
+}
+
+.brand-intro p {
+	line-height: 25px;
+}
+
+#gallery {
+	background: #eee;
+}
+
+.gal-inner {
+	padding: 70px 0;
+	width: 900px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+#gallery img {
+	width: 100%;
+}
+
+#gallery ul {
+	width: 100%;
+}
+
+#gallery ul>li {
+	overflow: hidden;
+}
+
+#gallery ul>li:first-child {
+	margin-bottom: 20px;
+}
+
+.gal-left {
+	order: 2;
+}
+
+.gal-right {
+	margin-right: 20px;
+}
+
+.gal-left li:first-child {
+	height: 480px;
+}
+
+.gal-left li:last-child {
+	height: 320px;
+}
+
+.gal-right li:nth-child(2) {
+	margin-bottom: 20px;	
+}
+
+.gal-right li:nth-child(2),
+.gal-right li:nth-child(3) {
+	height: 250px;
+}
+
+.gal-tit {
+    background-color: #fff;
+    padding: 50px 70px 0 70px;
+    height: 280px;
+}
+
+.tit-text {
+	font-weight: normal;
+	font-size: 15px;
+	padding-bottom: 25px;
+}
+
+.line {
+	width: 50px;
+	border-bottom: 1px solid #333;
+}
+
+.gal-intro {
+	font-size: 30px;
+	line-height: 37px;
+	padding: 30px 0;
+}
+
+.gal-text {
+	padding-bottom: 50px;
+}
+
+.gal-link {
+	text-align: right;
+}
+
+.gal-link a {
+	border-bottom: 1px solid #333;
+	color: #333;
+}
+
+/*예약*/
+.booking-wrap {
+	background: #333;
+}
+.booking-inner {
+	width: 900px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 100px 0 100px 0;
+	color: #ccc;
+}
+#booking {
+	width: 500px;
+}
+
+#booking-form {
+	width: 100%;
+}
+
+.booking-form .btn {
+	width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background: #333;
+    color: #eee;
+    cursor: pointer;
+}
+
+.booking-text {
+	padding-bottom: 5px;
+	padding-left: 15px;
+	line-height: 20px;
+}
+
+.booking-table {
+  padding-top: 10px;
+  border-collapse: separate;
+  border-spacing: 15px 10px;
+}
+
+.booking-table,
+.booking-table tr {
+	width: 100%;  
+}
+
+.booking-table td {
+	height: 27px;
+}
+
+.booking-table input, .booking-table textarea {
+	width: 100%;
+	border: 1px solid #555;
+	padding: 5px;
+	border-radius: 5px;
+	outline: none;
+}
+
+#content {
+	height: 150px;
+	padding: 5px;
+}
+
+#booking .contact-title,
+#board .contact-title {
+	font-weight: 900;
+}
+
+#booking .contact-title {
+	margin-bottom: 30px;
+	margin-left: 15px;
+}
+
+#board .contact-title {
+	margin-left: 0;
+	margin-bottom: 30px;
+}
+
+
+/*게시판*/
+#board {
+	width: 300px;
+	order: 1;
+}
+
+.board-text{
+	text-align: right;
+	color: #aaa;
+}
+
+.board-list {
+	height: 345px;
+	display: flex;
+	flex-direction: column;
+	border-collapse: collapse;
+}
+
+.board-list li {
+	border-bottom: 1px solid #555;
+	height: 70px;
+	padding-top: 20px;
+}
+
+.board-list li h3 {
+	padding-bottom: 7px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+/*content*/
+#content {
+	resize: none;
+}
+
+
+
+/*map*/
+
+#contact {
+	width: 900px;
+	margin: 0 auto;
+	padding: 70px 0 100px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.contact-title {
+	font-size: 15px;
+	text-align: left;
+	font-weight: 500;
+}
+
+.contact-contact {
+	width: 230px;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 180px;
+	line-height: 20px;
+	display: flex;
+}
+
+.contact-contact li:nth-child(2) {
+	width: 50px;
+	border-bottom: 1px solid #666;
+}
+
+
+/*Map API*/
+.customoverlay {position:relative;bottom:85px;border-radius:6px;border: 1px solid #ccc;border-bottom:2px solid #ddd;float:left;}
+.customoverlay:nth-of-type(n) {border:0; box-shadow:0px 1px 2px #888;}
+.customoverlay a {display:block;text-decoration:none;color:#000;text-align:center;border-radius:6px;font-size:14px;font-weight:bold;overflow:hidden;background: #d95050;background: #d95050 url(https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/arrow_white.png) no-repeat right 14px center;}
+.customoverlay .title {display:block;text-align:center;background:#fff;margin-right:35px;padding:10px 15px;font-size:14px;font-weight:bold;}
+.customoverlay:after {content:'';position:absolute;margin-left:-12px;left:50%;bottom:-12px;width:22px;height:12px;background:url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png')}

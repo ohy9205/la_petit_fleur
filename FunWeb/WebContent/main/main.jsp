@@ -11,8 +11,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,shrink-to-fit=no">
 	<title>main</title>
-		<link href="/FunWeb/css/default.css?v=4" rel="stylesheet" type="text/css">
-		<link href="/FunWeb//css/front.css?v=4" rel="stylesheet" type="text/css">
+		<link href="../css/default.css?v=4" rel="stylesheet" type="text/css">
+		<link href="../css/front.css?v=4" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 		<div id="wrap">

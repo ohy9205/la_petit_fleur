@@ -9,8 +9,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>UpdateForm</title>
-		<link href="/FunWeb/css/default.css?v=3" rel="stylesheet" type="text/css">
-		<link href="/FunWeb/css/subpage.css?v=3" rel="stylesheet" type="text/css">
+		<link href="../css/default.css?v=3" rel="stylesheet" type="text/css">
+		<link href="../css/subpage.css?v=3" rel="stylesheet" type="text/css">
 	
 	</head>
 	<body>
@@ -66,7 +66,7 @@
 	
 								<c:if test="${not empty gdto.file }">
 									<div class="file-btn">
-										<p id="prevFile"> <strong>현재파일</strong> <a href="/FunWeb/gallery/fileDownload.jsp?fileName=${gdto.file }">${gdto.file }</a> </p>
+										<p id="prevFile"> <strong>현재파일</strong> <a href="../gallery/fileDownload.jsp?fileName=${gdto.file }">${gdto.file }</a> </p>
 									</div>
 								</c:if>
 								</td>

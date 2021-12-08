@@ -9,8 +9,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>UpdateForm</title>
-		<link href="/FunWeb/css/default.css?v=10" rel="stylesheet" type="text/css">
-		<link href="/FunWeb/css/subpage.css?v=10" rel="stylesheet" type="text/css">
+		<link href="../css/default.css?v=10" rel="stylesheet" type="text/css">
+		<link href="../css/subpage.css?v=10" rel="stylesheet" type="text/css">
 	
 	</head>
 	<body>

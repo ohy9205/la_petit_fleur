@@ -7,8 +7,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>writeForm</title>
-		<link href="/FunWeb/css/default.css?v=3" rel="stylesheet" type="text/css">
-		<link href="/FunWeb/css/subpage.css?v=3" rel="stylesheet" type="text/css">
+		<link href="../css/default.css?v=3" rel="stylesheet" type="text/css">
+		<link href="../css/subpage.css?v=3" rel="stylesheet" type="text/css">
 	
 	</head>
 	<body>

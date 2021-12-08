@@ -10,8 +10,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>board</title>
-		<link href="/FunWeb/css/default.css?V=2" rel="stylesheet" type="text/css">
-		<link href="/FunWeb/css/subpage.css?V=2" rel="stylesheet" type="text/css">
+		<link href="../css/default.css?V=2" rel="stylesheet" type="text/css">
+		<link href="../css/subpage.css?V=2" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 		<div id="wrap">
@@ -33,7 +33,7 @@
 					<c:forEach var="gallery" items="${galleryList }" >
 						<li onclick="location.href='./Content.ga?num=${gallery.num }&pageNum=${pageNum }'">
 							<div class="img-wrap">
-								<img src="/FunWeb/attachFile/${gallery.file }" alt="사용자가 업로드한" >
+								<img src="../attachFile/${gallery.file }" alt="사용자가 업로드한" >
 							</div>
 							<div class="text-wrap">
 								<h3 class="gal-sub">${gallery.subject }</h3>

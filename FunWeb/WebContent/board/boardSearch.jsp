@@ -10,9 +10,9 @@
 <head>
 <meta charset="UTF-8">
 <title>board</title>
-<link href="/FunWeb/css/default.css?after" rel="stylesheet"
+<link href="../css/default.css?after" rel="stylesheet"
 	type="text/css">
-<link href="/FunWeb/css/subpage.css?after" rel="stylesheet"
+<link href="../css/subpage.css?after" rel="stylesheet"
 	type="text/css">
 </head>
 <body>

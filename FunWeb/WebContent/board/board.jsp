@@ -12,8 +12,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>board</title>
-		<link href="/FunWeb/css/default.css?V=3" rel="stylesheet" type="text/css">
-		<link href="/FunWeb/css/subpage.css?V=3" rel="stylesheet" type="text/css">
+		<link href="../css/default.css?V=3" rel="stylesheet" type="text/css">
+		<link href="../css/subpage.css?V=3" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 		<div id="wrap">
@@ -58,7 +58,7 @@
 									
 									<c:if test="${not empty board.file }">
 										<span>
-											<img src="/FunWeb/images/fileIcon.png">
+											<img src="../images/fileIcon.png">
 										</span>
 									</c:if>	
 								</td>

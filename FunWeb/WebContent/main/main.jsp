@@ -41,7 +41,7 @@
 						 특별한 하루를 만들어 보세요.</p> 
 					</div>
 					<div class="brand-img">
-						<img src="/FunWeb/images/brand-about.jpg" alt="꽃">
+						<img src="../images/brand-about.jpg" alt="꽃">
 					</div>
 				</div>
 				
@@ -50,10 +50,10 @@
 					<div class="gal-inner">
 						<ul class="gal-left">
 							<li>
-								<img src="/FunWeb/images/main-gal-3.jpg" alt="">
+								<img src="../images/main-gal-3.jpg" alt="">
 							</li>
 							<li>
-								<img src="/FunWeb/images/main-gal-4.jpg" alt="">
+								<img src="../images/main-gal-4.jpg" alt="">
 							</li>
 							
 						</ul>
@@ -67,10 +67,10 @@
 								<p class="gal-link"><a href="./Gallery.ga">show more</a></p>
 							</li>
 							<li>
-								<img src="/FunWeb/images/main-gal-1.jpg" alt="">
+								<img src="../images/main-gal-1.jpg" alt="">
 							</li>
 							<li>
-								<img src="/FunWeb/images/main-gal-2.jpg" alt="">
+								<img src="../images/main-gal-2.jpg" alt="">
 							</li>
 						</ul>
 					</div>
